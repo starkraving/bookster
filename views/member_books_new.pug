@@ -1,0 +1,10 @@
+extends layout
+
+block content
+	h2  books new
+	p Displays a form interface to enable the user to add a new book to their list
+	form(action="/member/books/new", method="post")
+		button(type="submit") Submit
+	ul
+		li
+			a(href="/member/books") Cancel

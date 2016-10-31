@@ -1,0 +1,9 @@
+extends layout
+
+block content
+	h2  trades
+	p Shows the list of books trades initiated by the user, and a list of book trades directed at the user. User can accept/reject trades, and view the profile of the other party in the trade
+	form(action="/member/trade/:id/accept", method="post")
+		button(type="submit") Accept Trade
+	form(action="/member/trade/:id/reject", method="post")
+		button(type="submit") Reject Trade

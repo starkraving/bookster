@@ -1,0 +1,12 @@
+extends layout
+
+block content
+	h2  books
+	p Displays a list of books owned by the user, with administrative links to manage them
+	form(action="/member/books/:id/remove", method="post")
+		button(type="submit") Delete
+	ul
+		li
+			a(href="/member/books/:id/edit") Edit
+		li
+			a(href="/member/books/new") New Book

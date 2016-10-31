@@ -1,0 +1,10 @@
+extends layout
+
+block content
+	h2  books :id edit
+	p Displays a form interface enabling the user to make changes to a single book in their list
+	form(action="/member/books/:id/edit", method="post")
+		button(type="submit") Submit
+	ul
+		li
+			a(href="/member/books") Cancel

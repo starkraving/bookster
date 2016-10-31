@@ -1,0 +1,9 @@
+extends layout
+
+block content
+	h2 
+	p Displays a search form along with a list of the top 10 books
+	form(action="/books/search", method="post")
+		button(type="submit") Search
+	form(action="/member/trades/new", method="post")
+		button(type="submit") Request Trade

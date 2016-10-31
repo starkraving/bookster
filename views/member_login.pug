@@ -1,0 +1,10 @@
+extends layout
+
+block content
+	h2  login
+	p Shows the login form
+		form(action="/member/login", method="post")
+			button(type="submit") Log In
+	ul
+		li
+			a(href="/member/signup") Not a member? Sign up

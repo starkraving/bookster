@@ -1,0 +1,10 @@
+extends layout
+
+block content
+	h2  profile
+	p Displays the form to allow a user to change their first/last name, city and state
+		form(action="/member/profile", method="post")
+			button(type="submit") Submit
+	ul
+		li
+			a(href="/books") Cancel

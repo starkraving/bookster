@@ -1,0 +1,12 @@
+extends layout
+
+block content
+	h2  search user :user
+	p Displays search results, along with a form to specify a new search
+	ul
+		li
+			a(href="/books/search/isbn/:isbn") Search ISBN
+		li
+			a(href="/books/search/state/:state") Search State
+		li
+			a(href="/books/search/user/:user") Search User
