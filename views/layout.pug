@@ -2,6 +2,10 @@ doctype html
 html
 	head
 		title #{title}
+		link(type="text/css", rel="stylesheet", href="/lib/bootstrap/dist/css/bootstrap.min.css")
+		link(type="text/css", rel="stylesheet", href="/public/css/theme.css")
+		link(type="text/css", rel="stylesheet", href="/public/css/custom.css")
 	body
 		include header
-		block content
+		main.container
+			block content

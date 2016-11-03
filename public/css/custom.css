@@ -1,0 +1,27 @@
+
+.navbar { min-height: 50px; }
+header nav { position: absolute; left: -200px; top: 50px; height: 800px; width: 200px; background-color: #172635; transition: left .5s; }
+header nav:target { left: 0px; transition: left .5s; }
+/*header nav ul { text-indent: 0; padding: 0; margin: 0; }
+header nav ul li { display: block; }
+header nav ul li a { display: block; padding: 15px; color: #ffffff; }*/
+header .hamburger { display: inline-block; position: absolute; top: 0; left: 0; width: 50px; height: 50px; color: #ffffff; font-size: 3em; line-height: 1em; text-decoration: none; }
+header .hamburger:before { display: inline-block; width: 50px; content: "\2261"; text-align: center; }
+header nav .hamburger { top: -50px; left: -50px; }
+header nav:target .hamburger { left: 0px; transition: left 0s linear .5s; }
+.navbar-brand { font-family: Kavoon; font-size: 22px; padding: 0 15px; height: 20px; width: 100%; text-align: center; }
+.navbar-header { width: 100%; }
+.navbar-nav { margin: 9.75px 0px; }
+main { padding-top: 60px; }
+
+@media only screen and (min-width: 768px) {
+    /* Style adjustments for viewports that meet the condition */
+    .navbar { min-height: 60px; }
+    header nav { position: relative; left: auto; top: auto; height: auto; width: auto; background-color: transparent; }
+    header nav:target { left: auto; }
+    header .hamburger { display: none; }
+    .navbar-brand { padding: 19.5px 15px; height: 60px; width: auto; text-align: left; }
+    .navbar-header { width: auto; }
+    .navbar-nav { margin: 9.75px -15px; }
+    main { padding-top: 110px; }
+}

@@ -1,16 +1,22 @@
-header
-	menu
-		h4 Global Exits
-		ul
-			li
-				a(href="/member/login") Log In
-			li
-				a(href="/member/books") My Books
-			li
-				a(href="/member/profile") My Profile
-			li
-				a(href="/member/logout") Log Out
-			li
-				a(href="/member/trades") My Trades
-			li
-				a(href="/books") Home
+header.navbar.navbar-default.navbar-fixed-top
+	menu.container
+		div.navbar-header.pull-left
+			a.navbar-brand(href="/books") Bookster
+		a.hamburger(href="#menu")
+		nav#menu.pull-right
+			a.hamburger(href="#close")
+			ul.nav.navbar-nav
+				li
+					a(href="/books") Home
+				if(role != 'member')
+					li
+						a(href="/member/login") Log In
+				else
+					li
+						a(href="/member/profile") My Profile
+					li
+						a(href="/member/books") My Books
+					li
+						a(href="/member/trades") My Trades
+					li
+						a(href="/member/logout") Log Out
