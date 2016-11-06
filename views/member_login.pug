@@ -2,14 +2,17 @@ extends layout
 
 block content
 	h2  Member Login
-	p Use the form below to log in
+	if( errors.length )
+		ul.list-unstyled.text-warning
+			each error in errors
+				li= error
 	form(action="/member/login", method="post")
-		label.input-group
-			span.input-group-addon Email:
+		section.form-group.form-group-sm
+			label(for="email") Email:
 			input.form-control(type="email", name="email")
-		label.input-group
-			span.input-group-addon Password:
+		section.form-group.form-group-sm
+			label(for="password") Password:
 			input.form-control(type="password", name="password")
-		button.btn.btn-primary(type="submit") Log In
-	p
-		a(href="/member/signup") Not a member? Sign up
+		div.btn-toolbar.pull-right
+			button.btn.btn-sm.btn-primary(type="submit") Log In
+			a.btn.btn-sm.btn-default(href="/member/signup") Not a member? Sign up

@@ -1,0 +1,34 @@
+extends layout
+
+block content
+	h2  Member Signup
+	if( errors.length )
+		ul.list-unstyled.text-warning
+			each message in errors
+				li= message
+	form(action="/member/signup", method="post")
+		section.form-group.form-group-sm.col-sm-12
+			label(for="email") Email:
+			input.form-control(type="text", name="email", value=memberInfo.email)
+		section.form-group.form-group-sm.col-sm-12
+			label(for="password") Password:
+			input.form-control(type="password", name="password", value=memberInfo.password)
+		section.form-group.form-group-sm.col-sm-12
+			label(for="password_confirm") Confirm Password:
+			input.form-control(type="password", name="password_confirm", value=memberInfo.password_confirm)
+		section.form-group.form-group-sm.col-sm-6
+			label(for="firstname") First Name:
+			input.form-control(type="text", name="firstname", value=memberInfo.firstname)
+		section.form-group.form-group-sm.col-sm-6
+			label(for="lastname") Last Name:
+			input.form-control(type="text", name="lastname", value=memberInfo.lastname)
+		section.form-group.form-group-sm.col-sm-8
+			label(for="city") City:
+			input.form-control(type="text", name="city", value=memberInfo.city)
+		section.form-group.form-group-sm.col-sm-4
+			label(for="state") State:
+			input.form-control(type="text", name="state", value=memberInfo.state)
+		div.col-sm-12
+			div.btn-toolbar.pull-right
+				button.btn.btn-sm.btn-primary(type="submit") Sign Up
+				a.btn.btn-sm.btn-default(href="/books") Cancel

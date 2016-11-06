@@ -27,7 +27,8 @@
     "mongodb": "^2.2.11",
     "mongoose": "^4.6.5",
     "pug": "^2.0.0-beta6",
-    "request": "^2.76.0"
+    "request": "^2.76.0",
+    "validator": "^6.1.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
