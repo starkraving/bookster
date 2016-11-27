@@ -1,12 +1,13 @@
-var express = require('express');
-var router = express.Router();
+var express    = require('express');
+var router     = express.Router();
+var book       = require('../models/mw.book');
 
 
 /**
  *Displays a search form along with a list of the top 10 books
  */
-router.get('', function(req, res){
-	res.render("books", {role: req.session.role, title: ""});
+router.get('', book.allBooks, function(req, res){
+	res.render("books", {role: req.session.role, title: "Books", books: res.allBooks, memberInfo: (req.session.memberInfo)?req.session.memberInfo:{}});
 });
 
 /**

@@ -1,9 +1,39 @@
 extends layout
 
 block content
-	h2  trades
-	p Shows the list of books trades initiated by the user, and a list of book trades directed at the user. User can accept/reject trades, and view the profile of the other party in the trade
-	form(action="/member/trade/:id/accept", method="post")
-		button(type="submit") Accept Trade
-	form(action="/member/trade/:id/reject", method="post")
-		button(type="submit") Reject Trade
+	h2 My Trades
+	if ( trades.requester.length === 0 && trades.requestee.length === 0 && notifications.length === 0 )
+		p.well You have no current trade activities
+	if( trades.requester.length )
+		fieldset
+			legend Outgoing Trade Requests
+			ul.list-group
+				each book in trades.requester
+					each trade in book.trades
+						li.list-group-item.row
+							span.col-sm-8= 'Requesting '+book.volumeInfo.title+' from '+trade.requestee
+							div.col-sm-4.btn-toolbar
+								form.form-inline.pull-right(action="/member/trades/cancel/"+book.googleID, method="post")
+									input(type="hidden", name="requestee", value=trade.requestee)
+									button.btn.btn-default.btn-sm(type="submit") Cancel Trade
+	if( trades.requestee.length )
+		fieldset
+			legend Incoming Trade Requests
+			ul.list-group
+				each book in trades.requestee
+					each trade in book.trades
+						li.list-group-item.row
+							span.col-sm-8= trade.requester+' requested '+book.volumeInfo.title
+							div.col-sm-4.btn-toolbar
+								form.form-inline.pull-right(action="/member/trades/accept/"+book.googleID, method="post")
+									input(type="hidden", name="requester", value=trade.requester)
+									button.btn.btn-primary.btn-sm(type="submit") Accept Trade
+								form.form-inline.pull-right(action="/member/trades/reject/"+book.googleID, method="post")
+									input(type="hidden", name="requester", value=trade.requester)
+									button.btn.btn-default.btn-sm(type="submit") Reject Trade
+	if ( notifications.length )
+		fieldset
+			legend Trade Notifications
+			ul.list-group
+				each notification in notifications
+					li.list-group-item= notification.message

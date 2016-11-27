@@ -1,0 +1,937 @@
+{
+ "kind": "books#volumes",
+ "totalItems": 1506,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "1PgKPuFIz1kC",
+   "etag": "Ff1ANpBdLHw",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/1PgKPuFIz1kC",
+   "volumeInfo": {
+    "title": "The Eye of the World",
+    "subtitle": "Book One of 'The Wheel of Time'",
+    "authors": [
+     "Robert Jordan"
+    ],
+    "publisher": "Macmillan",
+    "publishedDate": "2000-09-15",
+    "description": "Since its debut in 1990, The Wheel of Time® by Robert Jordan has captivated millions of readers around the globe with its scope, originality, and compelling characters. The Wheel of Time turns and Ages come and go, leaving memories that become legend. Legend fades to myth, and even myth is long forgotten when the Age that gave it birth returns again. In the Third Age, an Age of Prophecy, the World and Time themselves hang in the balance. What was, what will be, and what is, may yet fall under the Shadow. When The Two Rivers is attacked by Trollocs—a savage tribe of half-men, half-beasts— five villagers flee that night into a world they barely imagined, with new dangers waiting in the shadows and in the light. The Wheel of Time® New Spring: The Novel #1 The Eye of the World #2 The Great Hunt #3 The Dragon Reborn #4 The Shadow Rising #5 The Fires of Heaven #6 Lord of Chaos #7 A Crown of Swords #8 The Path of Daggers #9 Winter's Heart #10 Crossroads of Twilight #11 Knife of Dreams By Robert Jordan and Brandon Sanderson #12 The Gathering Storm #13 Towers of Midnight #14 A Memory of Light By Robert Jordan and Teresa Patterson The World of Robert Jordan's The Wheel of Time By Robert Jordan, Harriet McDougal, Alan Romanczuk, and Maria Simons The Wheel of Time Companion At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "1429959819"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9781429959810"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 688,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 4.5,
+    "ratingsCount": 184,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.13.8.0.preview.2",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=1PgKPuFIz1kC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=1PgKPuFIz1kC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.ca/books?id=1PgKPuFIz1kC&printsec=frontcover&dq=undefined:Robert+Jordan&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=1PgKPuFIz1kC&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-1PgKPuFIz1kC"
+   },
+   "saleInfo": {
+    "country": "CA",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 9.99,
+     "currencyCode": "CAD"
+    },
+    "retailPrice": {
+     "amount": 9.99,
+     "currencyCode": "CAD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=1PgKPuFIz1kC&rdid=book-1PgKPuFIz1kC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 9990000.0,
+       "currencyCode": "CAD"
+      },
+      "retailPrice": {
+       "amountInMicros": 9990000.0,
+       "currencyCode": "CAD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "CA",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.ca/books/reader?id=1PgKPuFIz1kC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "The Wheel of Time® New Spring: The Novel #1 The Eye of the World #2 The Great Hunt #3 The Dragon Reborn #4 The Shadow Rising #5 The Fires of Heaven #6 Lord of Chaos #7 A Crown of Swords #8 The Path of Daggers #9 Winter&#39;s Heart #10 ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "CcNnAgAAQBAJ",
+   "etag": "qAgTCyVSjzs",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/CcNnAgAAQBAJ",
+   "volumeInfo": {
+    "title": "The Zimzum of Love",
+    "subtitle": "A New Way of Understanding Marriage",
+    "authors": [
+     "Rob Bell",
+     "Kristen Bell"
+    ],
+    "publisher": "Harper Collins",
+    "publishedDate": "2014-10-28",
+    "description": "As he revolutionized traditional teaching on hell in the phenomenal New York Times bestseller Love Wins, Rob Bell now transforms how we understand and practice marriage in The Zimzum of Love, co-written with his wife, Kristen. Despite the divorce statistics, people are still committing to each other, instinctively believing and hoping that theirs is a sacred union that will last forever. Yet when these couples encounter problems, they often lack the resources that keep them connected to this greater mystery surrounding marriage. Rob and Kristen Bell introduce a startling new way of looking at marriage, The Zimzum of Love. Zimzum is a Hebrew term where God, in order to have a relationship with the world, contracts, creating space for the creation to exist. In marriage, zimzum is the dynamic energy field between two partners, in which each person contracts to allow the other to flourish. Mastering this field, this give and take of energy, is the secret to what makes marriage flourish. Rob and Kristen Bell are brutally honest about their own struggles, their ups and downs, as together they pass along what matters most for couples. In this wise book, they explore the secret of what makes a happy union—probing the mystery at the heart of the extraordinary emotional connection that binds two people. With his down-to-earth charm, a dose of whimsy, and memorable stories, Rob, writing with his wife Kristen, changes how we consider marriage, providing insight that can help all of us create satisfying and sacred unions of our own.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780062194251"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0062194259"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 160,
+    "printType": "BOOK",
+    "categories": [
+     "Religion"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.6.6.0.preview.2",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=CcNnAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=CcNnAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.ca/books?id=CcNnAgAAQBAJ&printsec=frontcover&dq=undefined:Robert+Jordan&hl=&cd=2&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=CcNnAgAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-CcNnAgAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "CA",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 11.99,
+     "currencyCode": "CAD"
+    },
+    "retailPrice": {
+     "amount": 11.99,
+     "currencyCode": "CAD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=CcNnAgAAQBAJ&rdid=book-CcNnAgAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.199E7,
+       "currencyCode": "CAD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.199E7,
+       "currencyCode": "CAD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "CA",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.ca/books/download/The_Zimzum_of_Love-sample-epub.acsm?id=CcNnAgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.ca/books/reader?id=CcNnAgAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "In this wise book, they explore the secret of what makes a happy union—probing the mystery at the heart of the extraordinary emotional connection that binds two people."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "A75vBQAAQBAJ",
+   "etag": "4UrBOs/xsDM",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/A75vBQAAQBAJ",
+   "volumeInfo": {
+    "title": "The Devil's Diary",
+    "subtitle": "Alfred Rosenberg and the Stolen Secrets of the Third Reich",
+    "authors": [
+     "Robert K. Wittman",
+     "David Kinney"
+    ],
+    "publisher": "HarperCollins",
+    "publishedDate": "2016-03-29",
+    "description": "A groundbreaking World War II narrative wrapped in a riveting detective story, The Devil’s Diary investigates the disappearance of a private diary penned by one of Adolf Hitler’s top aides—Alfred Rosenberg, his “chief philosopher”—and mines its long-hidden pages to deliver a fresh, eye-opening account of the Nazi rise to power and the genesis of the Holocaust An influential figure in Adolf Hitler’s early inner circle from the start, Alfred Rosenberg made his name spreading toxic ideas about the Jews throughout Germany. By the dawn of the Third Reich, he had published a bestselling masterwork that was a touchstone of Nazi thinking. His diary was discovered hidden in a Bavarian castle at war’s end—five hundred pages providing a harrowing glimpse into the mind of a man whose ideas set the stage for the Holocaust. Prosecutors examined it during the Nuremberg war crimes trial, but after Rosenberg was convicted, sentenced, and executed, it mysteriously vanished. New York Times bestselling author Robert K. Wittman, who as an FBI agent and then a private consultant specialized in recovering artifacts of historic significance, first learned of the diary in 2001, when the chief archivist for the U.S. Holocaust Memorial Museum contacted him to say that someone was trying to sell it for upwards of a million dollars. The phone call sparked a decade-long hunt that took them on a twisting path involving a pair of octogenarian secretaries, an eccentric professor, and an opportunistic trash-picker. From the crusading Nuremberg prosecutor who smuggled the diary out of Germany to the man who finally turned it over, everyone had reasons for hiding the truth. Drawing on Rosenberg’s entries about his role in the seizure of priceless artwork and the brutal occupation of the Soviet Union, his conversations with Hitler and his endless rivalries with Göring, Goebbels, and Himmler, The Devil’s Diary offers vital historical insight of unprecedented scope and intimacy into the innermost workings of the Nazi regime—and into the psyche of the man whose radical vision mutated into the Final Solution.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780062319036"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0062319035"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 528,
+    "printType": "BOOK",
+    "categories": [
+     "History"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.2.2.0.preview.2",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=A75vBQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=A75vBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.ca/books?id=A75vBQAAQBAJ&printsec=frontcover&dq=undefined:Robert+Jordan&hl=&cd=3&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=A75vBQAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-A75vBQAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "CA",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 24.99,
+     "currencyCode": "CAD"
+    },
+    "retailPrice": {
+     "amount": 24.99,
+     "currencyCode": "CAD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=A75vBQAAQBAJ&rdid=book-A75vBQAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 2.499E7,
+       "currencyCode": "CAD"
+      },
+      "retailPrice": {
+       "amountInMicros": 2.499E7,
+       "currencyCode": "CAD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "CA",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.ca/books/download/The_Devil_s_Diary-sample-epub.acsm?id=A75vBQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.ca/books/reader?id=A75vBQAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "New York Times bestselling author Robert K. Wittman, who as an FBI agent and then a private consultant specialized in recovering artifacts of historic significance, first learned of the diary in 2001, when the chief archivist for the U.S. ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "poOlcQAACAAJ",
+   "etag": "U1jadmRTZQQ",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/poOlcQAACAAJ",
+   "volumeInfo": {
+    "title": "Black Like Me",
+    "authors": [
+     "John Howard Griffin",
+     "Robert Bonazzi"
+    ],
+    "publisher": "Signet Book",
+    "publishedDate": "2010",
+    "description": "A white writer recounts his experiences in the American South following treatments that darkened his skin and shares his thoughts on the problems of prejudice and racial injustice.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0451234219"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780451234216"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 200,
+    "printType": "BOOK",
+    "categories": [
+     "Biography & Autobiography"
+    ],
+    "averageRating": 3.5,
+    "ratingsCount": 2,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=poOlcQAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=poOlcQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.ca/books?id=poOlcQAACAAJ&dq=undefined:Robert+Jordan&hl=&cd=4&source=gbs_api",
+    "infoLink": "http://books.google.ca/books?id=poOlcQAACAAJ&dq=undefined:Robert+Jordan&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.ca/books/about/Black_Like_Me.html?hl=&id=poOlcQAACAAJ"
+   },
+   "saleInfo": {
+    "country": "CA",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "CA",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.ca/books/reader?id=poOlcQAACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "A white writer recounts his experiences in the American South following treatments that darkened his skin and shares his thoughts on the problems of prejudice and racial injustice."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "otx9BAAAQBAJ",
+   "etag": "dyCourLP028",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/otx9BAAAQBAJ",
+   "volumeInfo": {
+    "title": "Going into the City",
+    "subtitle": "Portrait of a Critic as a Young Man",
+    "authors": [
+     "Robert Christgau"
+    ],
+    "publisher": "Harper Collins",
+    "publishedDate": "2015-02-24",
+    "description": "One of our great essayists and journalists—the Dean of American Rock Critics, Robert Christgau—takes us on a heady tour through his life and times in this vividly atmospheric and visceral memoir that is both a love letter to a New York long past and a tribute to the transformative power of art. Lifelong New Yorker Robert Christgau has been writing about pop culture since he was twelve and getting paid for it since he was twenty-two, covering rock for Esquire in its heyday and personifying the music beat at the Village Voice for over three decades. Christgau listened to Alan Freed howl about rock ‘n’ roll before Elvis, settled east of Manhattan’s Avenue B forty years before it was cool, witnessed Monterey and Woodstock and Chicago ’68, and the first abortion speak-out. He’s caught Coltrane in the East Village, Muddy Waters in Chicago, Otis Redding at the Apollo, the Dead in the Haight, Janis Joplin at the Fillmore, the Rolling Stones at the Garden, the Clash in Leeds, Grandmaster Flash in Times Square, and every punk band you can think of at CBGB. Christgau chronicled many of the key cultural shifts of the last half century and revolutionized the cultural status of the music critic in the process. Going Into the City is a look back at the upbringing that grounded him, the history that transformed him, and the music, books, and films that showed him the way. Like Alfred Kazin’s A Walker in the City, E. B. White’s Here Is New York, Joseph Mitchell’s Up in the Old Hotel, and Patti Smith’s Just Kids, it is a loving portrait of a lost New York. It’s an homage to the city of Christgau’s youth from Queens to the Lower East Side—a city that exists mostly in memory today. And it’s a love story about the Greenwich Village girl who roamed this realm of possibility with him.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780062238818"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0062238817"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 384,
+    "printType": "BOOK",
+    "categories": [
+     "Biography & Autobiography"
+    ],
+    "averageRating": 3.5,
+    "ratingsCount": 3,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.1.1.0.preview.2",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=otx9BAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=otx9BAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.ca/books?id=otx9BAAAQBAJ&printsec=frontcover&dq=undefined:Robert+Jordan&hl=&cd=5&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=otx9BAAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-otx9BAAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "CA",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 11.99,
+     "currencyCode": "CAD"
+    },
+    "retailPrice": {
+     "amount": 11.99,
+     "currencyCode": "CAD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=otx9BAAAQBAJ&rdid=book-otx9BAAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.199E7,
+       "currencyCode": "CAD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.199E7,
+       "currencyCode": "CAD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "CA",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.ca/books/download/Going_into_the_City-sample-epub.acsm?id=otx9BAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.ca/books/reader?id=otx9BAAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Going Into the City is a look back at the upbringing that grounded him, the history that transformed him, and the music, books, and films that showed him the way."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "EA1wODXZM_AC",
+   "etag": "ZI4X5z5OYUI",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/EA1wODXZM_AC",
+   "volumeInfo": {
+    "title": "The Shadow Rising",
+    "subtitle": "Book Four of 'The Wheel of Time'",
+    "authors": [
+     "Robert Jordan"
+    ],
+    "publisher": "Macmillan",
+    "publishedDate": "2010-01-19",
+    "description": "Since its debut in 1990, The Wheel of Time® by Robert Jordan has captivated millions of readers around the globe with its scope, originality, and compelling characters. The Wheel of Time turns and Ages come and go, leaving memories that become legend. Legend fades to myth, and even myth is long forgotten when the Age that gave it birth returns again. In the Third Age, an Age of Prophecy, the World and Time themselves hang in the balance. What was, what will be, and what is, may yet fall under the Shadow. The seals of Shayol Ghul are weak now, and the Dark One reaches out. The Shadow is rising to cover humankind. In Tar Valon, Min sees portents of hideous doom. Will the White Tower itself be broken? In the Two Rivers, the Whitecloaks ride in pursuit of a man with golden eyes, and in pursuit of the Dragon Reborn. In Cantorin, among the Sea Folk, High Lady Suroth plans the return of the Seanchan armies to the mainland. In the Stone of Tear, the Lord Dragon considers his next move. It will be something no one expects, not the Black Ajah, not Tairen nobles, not Aes Sedai, not Egwene or Elayne or Nynaeve. Against the Shadow rising stands the Dragon Reborn... The Wheel of Time® New Spring: The Novel #1 The Eye of the World #2 The Great Hunt #3 The Dragon Reborn #4 The Shadow Rising #5 The Fires of Heaven #6 Lord of Chaos #7 A Crown of Swords #8 The Path of Daggers #9 Winter's Heart #10 Crossroads of Twilight #11 Knife of Dreams By Robert Jordan and Brandon Sanderson #12 The Gathering Storm #13 Towers of Midnight #14 A Memory of Light By Robert Jordan and Teresa Patterson The World of Robert Jordan's The Wheel of Time By Robert Jordan, Harriet McDougal, Alan Romanczuk, and Maria Simons The Wheel of Time Companion At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781429960199"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1429960191"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 704,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 4.5,
+    "ratingsCount": 4,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "0.9.9.0.preview.2",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=EA1wODXZM_AC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=EA1wODXZM_AC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.ca/books?id=EA1wODXZM_AC&printsec=frontcover&dq=undefined:Robert+Jordan&hl=&cd=6&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=EA1wODXZM_AC&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-EA1wODXZM_AC"
+   },
+   "saleInfo": {
+    "country": "CA",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 10.99,
+     "currencyCode": "CAD"
+    },
+    "retailPrice": {
+     "amount": 10.99,
+     "currencyCode": "CAD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=EA1wODXZM_AC&rdid=book-EA1wODXZM_AC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.099E7,
+       "currencyCode": "CAD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.099E7,
+       "currencyCode": "CAD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "CA",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.ca/books/reader?id=EA1wODXZM_AC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "The Wheel of Time® New Spring: The Novel #1 The Eye of the World #2 The Great Hunt #3 The Dragon Reborn #4 The Shadow Rising #5 The Fires of Heaven #6 Lord of Chaos #7 A Crown of Swords #8 The Path of Daggers #9 Winter&#39;s Heart #10 ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "uyr8BAAAQBAJ",
+   "etag": "PEae04W6Se8",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/uyr8BAAAQBAJ",
+   "volumeInfo": {
+    "title": "1984",
+    "subtitle": "",
+    "authors": [
+     "George Orwell"
+    ],
+    "publisher": "Arcturus Publishing",
+    "publishedDate": "2014-01-04",
+    "description": "George Orwell's dystopian masterpiece, Nineteen Eighty-Four is perhaps the most pervasively influential book of the twentieth century, making famous Big Brother, newspeak and Room 101. 'Who controls the past controls the future: who controls the present controls the past'",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781784043735"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1784043737"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 317,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 1790,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.1.1.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=uyr8BAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=uyr8BAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.ca/books?id=uyr8BAAAQBAJ&printsec=frontcover&dq=undefined:Robert+Jordan&hl=&cd=7&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=uyr8BAAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-uyr8BAAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "CA",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 2.99,
+     "currencyCode": "CAD"
+    },
+    "retailPrice": {
+     "amount": 2.64,
+     "currencyCode": "CAD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=uyr8BAAAQBAJ&rdid=book-uyr8BAAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 2990000.0,
+       "currencyCode": "CAD"
+      },
+      "retailPrice": {
+       "amountInMicros": 2640000.0,
+       "currencyCode": "CAD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "CA",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.ca/books/download/1984-sample-epub.acsm?id=uyr8BAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.ca/books/download/1984-sample-pdf.acsm?id=uyr8BAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.ca/books/reader?id=uyr8BAAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "George Orwell&#39;s dystopian masterpiece, Nineteen Eighty-Four is perhaps the most pervasively influential book of the twentieth century, making famous Big Brother, newspeak and Room 101."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "uClzcESJTNAC",
+   "etag": "oJiHEeXGieg",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/uClzcESJTNAC",
+   "volumeInfo": {
+    "title": "The Fifth Sorceress",
+    "authors": [
+     "Robert Newcomb"
+    ],
+    "publisher": "Del Rey",
+    "publishedDate": "2002-07-30",
+    "description": "Not since Terry Goodkind unsheathed the Sword of Truth has there been such an epic tale of heroism and magic that so captures the imagination as this monumental new work by a master storyteller. In The Fifth Sorceress, Robert Newcomb conjures a time and place wrought with exquisite detail, characters vividly drawn and deeply felt, and a history rich in glory and horror, splendor and secrets. . . . “We gave them a chance once, long ago. . . . We offered to share power equally, and in peace. But they refused and chose war. With them it was all or nothing. Wizard against Sorceress. Male against female. Light against dark.” It is more than three centuries since the ravages of a devastating war nearly tore apart the kingdom of Eutracia. In its wake, those who masterminded the bloodshed—a quartet of powerful, conquest-hungry Sorceresses—were sentenced to exile, with return all but impossible and death all but inevitable. Now a land of peace and plenty, protected and guided by a council of immortal wizards, Eutracia is about to crown a new king. And as the coronation approaches, the spirit of celebration fills every heart. Except one. Prince Tristan is a reluctant monarch-to-be. Though born with the “endowed” blood that will give him the power to master magic, and destined by tradition to succeed his father as ruler, he is a rebel soul. And when he discovers the ancient, hidden caves where strange red waters flow—possessed of their own mysterious magic—it only makes him yearn all the more to escape his future of duty . . . and succumb to the stirrings of enchantment within him. But more than tradition compels Tristan to ascend the throne. The very existence of Eutracia depends upon it. For after these long centuries of peace, dreadful omens have begun to appear, heralding something too unspeakable to ponder. And if indeed the old evil has returned, hungry to wreak vengeance, Tristan’s role in an ages-old prophecy must be fulfilled—or the cost to his kingdom and his people will be beyond imagination. It will be a battle like none ever known, against an enemy whose thirst for blood and domination is depthless and unyielding. And for Tristan, it will be the ultimate challenge: facing an adversary whose greatest weapon is the person he loves most—transformed into the instrument of his annihilation . . . and the catalyst that will doom Eutracia forever to darkness.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780345454768"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0345454766"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 608,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 2.5,
+    "ratingsCount": 3,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "0.1.2.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=uClzcESJTNAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=uClzcESJTNAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.ca/books?id=uClzcESJTNAC&printsec=frontcover&dq=undefined:Robert+Jordan&hl=&cd=8&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=uClzcESJTNAC&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-uClzcESJTNAC"
+   },
+   "saleInfo": {
+    "country": "CA",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 9.99,
+     "currencyCode": "CAD"
+    },
+    "retailPrice": {
+     "amount": 9.99,
+     "currencyCode": "CAD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=uClzcESJTNAC&rdid=book-uClzcESJTNAC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 9990000.0,
+       "currencyCode": "CAD"
+      },
+      "retailPrice": {
+       "amountInMicros": 9990000.0,
+       "currencyCode": "CAD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "CA",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.ca/books/download/The_Fifth_Sorceress-sample-epub.acsm?id=uClzcESJTNAC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.ca/books/download/The_Fifth_Sorceress-sample-pdf.acsm?id=uClzcESJTNAC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.ca/books/reader?id=uClzcESJTNAC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Not since Terry Goodkind unsheathed the Sword of Truth has there been such an epic tale of heroism and magic that so captures the imagination as this monumental new work by a master storyteller."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "SXLTQTJfe2AC",
+   "etag": "47nQo6f9eAA",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/SXLTQTJfe2AC",
+   "volumeInfo": {
+    "title": "What Light Can Do",
+    "subtitle": "Essays on Art, Imagination, and the Natural World",
+    "authors": [
+     "Robert Hass"
+    ],
+    "publisher": "Harper Collins",
+    "publishedDate": "2012-08-14",
+    "description": "Universally lauded poet Robert Hass offers a stunning, wide-ranging collection of essays on art, imagination, and the natural world—with accompanying photos throughout. What Light Can Do is a magnificent companion piece to the former U.S. Poet Laureate’s Pulitzer Prize and National Book Award-winning poetry collection, Time and Materials, as well as his earlier book of essays, the NBCC Award-winner Twentieth Century Pleasures. Haas brilliantly discourses on many of his favorite topics—on writers ranging from Jack London to Wallace Stevens to Allen Ginsberg to Cormac McCarthy; on California; and on the art of photography in several memorable pieces—in What Light Can Do, a remarkable literary treasure that might best be described as “luminous.”",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780062096845"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0062096842"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 496,
+    "printType": "BOOK",
+    "categories": [
+     "Literary Criticism"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.2.1.0.preview.2",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=SXLTQTJfe2AC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=SXLTQTJfe2AC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.ca/books?id=SXLTQTJfe2AC&printsec=frontcover&dq=undefined:Robert+Jordan&hl=&cd=9&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=SXLTQTJfe2AC&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-SXLTQTJfe2AC"
+   },
+   "saleInfo": {
+    "country": "CA",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 11.99,
+     "currencyCode": "CAD"
+    },
+    "retailPrice": {
+     "amount": 11.99,
+     "currencyCode": "CAD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=SXLTQTJfe2AC&rdid=book-SXLTQTJfe2AC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.199E7,
+       "currencyCode": "CAD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.199E7,
+       "currencyCode": "CAD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "CA",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.ca/books/download/What_Light_Can_Do-sample-epub.acsm?id=SXLTQTJfe2AC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.ca/books/reader?id=SXLTQTJfe2AC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "A perceptive and evocative mixture of memory, philosophical interrogation, and criticism, the essays in What Light Can Do, finely attuned to the pleasures and pains of being human, are always grounded in the beauty of the material world and ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "MTSEAwAAQBAJ",
+   "etag": "UXdENxxEfYM",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/MTSEAwAAQBAJ",
+   "volumeInfo": {
+    "title": "Simple Sabotage",
+    "subtitle": "A Modern Field Manual for Detecting and Rooting Out Everyday Behaviors That Undermine Your Workplace",
+    "authors": [
+     "Robert M. Galford",
+     "Bob Frisch",
+     "Cary Greene"
+    ],
+    "publisher": "Harper Collins",
+    "publishedDate": "2015-09-29",
+    "description": "Inspired by the Simple Sabotage Field Manual released by the Office of Strategic Services in 1944 to train European resistors, this is the essential handbook to help stamp out unintentional sabotage in any working group, from major corporations to volunteer PTA committees. In 1944, the Office of Strategic Services (OSS)—the predecessor of today’s CIA—issued the Simple Sabotage Field Manual that detailed sabotage techniques designed to demoralize the enemy. One section focused on eight incredibly subtle—and devastatingly destructive—tactics for sabotaging the decision-making processes of organizations. While the manual was written decades ago, these sabotage tactics thrive undetected in organizations today: Insist on doing everything through channels. Make speeches. Talk as frequently as possible and at great length. Refer all matters to committees. Bring up irrelevant issues as frequently as possible. Haggle over precise wordings of communications. Refer back to matters already decided upon and attempt to question the advisability of that decision. Advocate caution and urge fellow-conferees to avoid haste that might result in embarrassments or difficulties later on. Be worried about the propriety of any decision. Everyone has been faced with someone who has used these tactics, even when they have meant well. Filled with proven strategies and techniques, this brief, clever book outlines the counter-sabotage measures to detect and reduce the impact of these eight classic sabotage tactics to improve productivity, spur creativity, and engender better collegial relationships.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780062371614"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0062371614"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 224,
+    "printType": "BOOK",
+    "categories": [
+     "Business & Economics"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.8.7.0.preview.2",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=MTSEAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=MTSEAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.ca/books?id=MTSEAwAAQBAJ&printsec=frontcover&dq=undefined:Robert+Jordan&hl=&cd=10&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=MTSEAwAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-MTSEAwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "CA",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 15.99,
+     "currencyCode": "CAD"
+    },
+    "retailPrice": {
+     "amount": 15.99,
+     "currencyCode": "CAD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=MTSEAwAAQBAJ&rdid=book-MTSEAwAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.599E7,
+       "currencyCode": "CAD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.599E7,
+       "currencyCode": "CAD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "CA",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.ca/books/download/Simple_Sabotage-sample-epub.acsm?id=MTSEAwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.ca/books/reader?id=MTSEAwAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Inspired by the Simple Sabotage Field Manual released by the Office of Strategic Services in 1944 to train European resistors, this is the essential handbook to help stamp out unintentional sabotage in any working group, from major ..."
+   }
+  }
+ ]
+}

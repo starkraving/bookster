@@ -1,10 +1,18 @@
 extends layout
 
 block content
-	h2  books new
-	p Displays a form interface to enable the user to add a new book to their list
+	h2  New Book
+	p Use the form below to search for books to add to your collection. 
 	form(action="/member/books/new", method="post")
-		button(type="submit") Submit
-	ul
-		li
-			a(href="/member/books") Cancel
+		section.form-group.form-group-sm.col-xs-5
+			select.form-control(name="searchtype", required)
+				option(value="") Search Type:
+				option(value="isbn") ISBN
+				option(value="inauthor") Author
+				option(value="intitle") Title
+		section.form-group.form-group-sm.col-xs-7
+			input.form-control(name="search", placeholder="Search Text:", required)
+		section.col-sm-12
+			div.btn-toolbar.pull-right
+				button.btn.btn-sm.btn-primary(type="submit") Submit
+				a.btn.btn-sm.btn-default(href="/member/books") Cancel

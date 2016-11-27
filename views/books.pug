@@ -1,9 +1,16 @@
 extends layout
 
 block content
-	h2 
-	p Displays a search form along with a list of the top 10 books
-	form(action="/books/search", method="post")
-		button(type="submit") Search
-	form(action="/member/trades/new", method="post")
-		button(type="submit") Request Trade
+	h2 Available Books
+	p Below is a list of all books available for trade
+	each book in books
+		article.col-sm-4
+			div.thumbnail
+				img(src=book.volumeInfo.imageLinks.thumbnail, alt=book.volumeInfo.title)
+				div.caption
+					h3= book.volumeInfo.title
+					if( typeof book.volumeInfo.authors == 'object' )
+						h4= 'by '+book.volumeInfo.authors.join(' and ')
+					p= book.volumeInfo.description.substr(0, 300)+'...'
+					if( role == 'member' && memberInfo.hasOwnProperty('email') && book.owners.indexOf(memberInfo.email) === -1 )
+						a.btn.btn-sm.btn-primary(href="member/trades/new/"+book.googleID) Request Trade

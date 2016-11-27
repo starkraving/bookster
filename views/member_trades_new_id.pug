@@ -1,0 +1,11 @@
+extends layout
+
+block content
+	h2  Select an Owner for Trade
+	ul.list-group
+	each owner in owners
+		li.list-group-item
+			form(action="/member/trades/new/"+id, method="post")
+				input(type="hidden", name="email", value=owner.email)
+				span= owner.firstname+', '+owner.city+' '+owner.state
+				button.pull-right.btn.btn-primary.btn-sm(type="submit") Request Trade

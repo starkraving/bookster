@@ -1,0 +1,19 @@
+extends layout
+
+block content
+	h2  New Book
+	p Select one of the books below to add to your library
+	ul.list-group
+		each book in books.items
+			li.list-group-item.row
+				if( book.volumeInfo.imageLinks && book.volumeInfo.imageLinks.thumbnail )
+					img.img-responsive.col-lg-2.col-sm-3(src=book.volumeInfo.imageLinks.thumbnail)
+				else
+					span.col-lg-2.col-sm-3
+				form.col-lg-10.col-sm-9(action="/member/books/new/"+book.id, method="post")
+					input(type="hidden", name="bookData", value=JSON.stringify(book))
+					button.btn.btn-primary.btn-sm.pull-right Select
+					h4= book.volumeInfo.title
+					if( typeof book.volumeInfo.authors == 'object' )
+						h5= 'by '+book.volumeInfo.authors.join(' and ')
+					p= book.volumeInfo.description

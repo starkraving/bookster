@@ -1,8 +1,14 @@
-var express    = require('express');
-var router     = express.Router();
-var auth       = require('../auth');
-var member     = require('../models/mw.member');
-var crypto     = require('crypto');
+var express         = require('express');
+var router          = express.Router();
+var auth            = require('../auth');
+var member          = require('../models/mw.member');
+var book            = require('../models/mw.book');
+var notification    = require('../models/mw.notification.js');
+var crypto          = require('crypto');
+var request         = require('request');
+var validator       = require('validator');
+var fs              = require('fs');
+var path            = require('path');
 
 /**
  *Shows the login form
@@ -25,10 +31,65 @@ router.post('/login', member.getByLogin, function(req, res){
 });
 
 /**
- *Shows the list of books trades initiated by the user, and a list of book trades directed at the user. User can accept/reject trades, and view the profile of the other party in the trade
+ *Shows the list of books trades initiated by the user, and a list of book trades directed at the user. User can accept/reject trades
  */
-router.get('/trades', auth.requires('member'), function(req, res){
-	res.render("member_trades", {role: req.session.role, title: "My Trades"});
+router.get('/trades', auth.requires('member'), book.myTrades, notification.getAndClear, function(req, res){
+	res.render("member_trades", {role: req.session.role, title: "My Trades", trades: res.myTrades, notifications: res.notifications});
+});
+
+/**
+ *Shows form with list of current book owners to choose from
+ */
+router.get('/trades/new/:id', auth.requires('member'), book.ownersByBook('params'), member.getByEmails, function(req, res){
+	res.render("member_trades_new_id", {role: req.session.role, id: req.params.id, title: "Select an Owner for Trade", owners: res.owners});
+});
+
+/**
+ *Creates a new trade request with a requester and a requestee
+ */
+router.post('/trades/new/:id', auth.requires('member'), function(req, res){
+	book.insertTrade(req.params.id, {
+		requester: req.session.memberInfo.email, 
+		requestee: req.body.email
+	}, function(){
+		res.redirect("/member/trades");
+	});
+});
+
+/**
+ *Cancels the current user's trade request
+ */
+router.post('/trades/cancel/:id', auth.requires('member'), function(req, res){
+	book.cancelTrade(req.params.id, {
+		requester: req.session.memberInfo.email, 
+		requestee: req.body.requestee
+	}, function(){
+		res.redirect("/member/trades");
+	});
+});
+
+/**
+ *Rejects a trade request initiated by another user
+ */
+router.post('/trades/reject/:id', auth.requires('member'), function(req, res){
+	book.rejectTrade(req.params.id, {
+		requester: req.body.requester,
+		requestee: req.session.memberInfo.email
+	}, function(){
+		res.redirect("/member/trades");
+	});
+});
+
+/**
+ *Accepts a trade request initiated by another user
+ */
+router.post('/trades/accept/:id', auth.requires('member'), function(req, res){
+	book.acceptTrade(req.params.id, {
+		requester: req.body.requester,
+		requestee: req.session.memberInfo.email
+	}, function(){
+		res.redirect("/member/trades");
+	});
 });
 
 /**
@@ -74,31 +135,17 @@ router.post('/profile', auth.requires('member'), function(req, res){
 /**
  *Displays a list of books owned by the user, with administrative links to manage them
  */
-router.get('/books', auth.requires('member'), function(req, res){
-	res.render("member_books", {role: req.session.role, title: "My Books"});
+router.get('/books', auth.requires('member'), book.myBooks, function(req, res){
+	res.render("member_books", {role: req.session.role, title: "My Books", books: res.myBooks});
 });
 
 /**
  *Removes a book from the current user's list
  */
 router.post('/books/:id/remove', auth.requires('member'), function(req, res){
-	
-	res.redirect("/member/books");
-});
-
-/**
- *Displays a form interface enabling the user to make changes to a single book in their list
- */
-router.get('/books/:id/edit', auth.requires('member'), function(req, res){
-	res.render("member_books_id_edit", {role: req.session.role, title: "Edit Book"});
-});
-
-/**
- *Saves changes to a book in the current user's list
- */
-router.post('/books/:id/edit', auth.requires('member'), function(req, res){
-	
-	res.redirect("/member/books");
+	book.removeOwner(req.params.id, req.session.memberInfo.email, function(){
+		res.redirect("/member/books");
+	});
 });
 
 /**
@@ -111,9 +158,33 @@ router.get('/books/new', auth.requires('member'), function(req, res){
 /**
  *Inserts a new book into the current user's list
  */
-router.post('/books/new', auth.requires('member'), function(req, res){
-	
-	res.redirect("/member/books");
+router.post('/books/new/:id?', auth.requires('member'), function(req, res){
+	if ( !req.params.id ) {
+		var filter = ( ['isbn','inauthor','intitle'].indexOf(req.body.searchType) )
+						? req.body.searchType+':' : '';
+		request('https://www.googleapis.com/books/v1/volumes?q='+filter+escape(req.body.search), function(err, response, body){
+			if ( err ) {
+				body = fs.readFileSync(path.resolve(__dirname+'/../views/books.json'));
+			}
+			res.render('member_books_new_select', {role: req.session.role, title: "Add a Book", books: JSON.parse(body)});
+		});
+	} else {
+		book.find({googleID:req.params.id}, function(results){
+			if ( results.length ) {
+				book.update(results[0].googleID, {owners: results[0].owners.push(req.session.memberInfo.email)}, function(){
+					res.redirect("/member/books");
+				})
+			} else {
+				bookData = JSON.parse(req.body.bookData);
+				bookData.googleID = bookData.id;
+				bookData.owners = [req.session.memberInfo.email];
+				bookData.trades = [];
+				book.insert(bookData, function(){
+					res.redirect("/member/books");
+				});
+			}
+		})
+	}
 });
 
 /**

@@ -1,12 +1,16 @@
 extends layout
 
 block content
-	h2  books
-	p Displays a list of books owned by the user, with administrative links to manage them
-	form(action="/member/books/:id/remove", method="post")
-		button(type="submit") Delete
-	ul
-		li
-			a(href="/member/books/:id/edit") Edit
-		li
-			a(href="/member/books/new") New Book
+	h2  My Books
+	ul.list-group
+		li.list-group-item.row
+			a.btn.btn-sm.btn-primary.pull-right(href="/member/books/new") New Book
+		each book in books
+			li.list-group-item.row
+				img.img-responsive.col-lg-2.col-sm-3(src=book.volumeInfo.imageLinks.thumbnail)
+				form.col-lg-10.col-sm-9(action="/member/books/"+book.googleID+"/remove", method="post")
+					div.btn-toolbar.pull-right
+						button.btn.btn-default.btn-sm Delete
+					h4= book.volumeInfo.title
+					h5= 'by '+book.volumeInfo.authors.join(' and ')
+					p= book.volumeInfo.description
