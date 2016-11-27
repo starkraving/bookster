@@ -36,7 +36,7 @@ fs.readdirSync('./controllers').forEach(function (file) {
 });
 
 app.get('/', function(req, res){
-	res.redirect("/stocks");
+	res.redirect("/books");
 });
 
 if ( mode == 'development' ) {
